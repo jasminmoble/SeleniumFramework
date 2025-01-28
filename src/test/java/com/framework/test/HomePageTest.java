@@ -36,6 +36,7 @@ public class HomePageTest extends BaseTest{
         Thread.sleep(3000);
         HomePage homePage=new HomePage();
        String title= homePage.getTitle();
+       System.out.println(title);
         Assert.assertEquals(title,"OrangeHRM");
     }
 }
